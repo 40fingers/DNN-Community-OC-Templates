@@ -1,2 +1,2 @@
-# OC-Template-Extensions
-DNN Open Content template for Extension Library on https://dnncommunity.org
+# DNN Community Open Content Templates
+DNN Open Content templates for https://dnncommunity.org
