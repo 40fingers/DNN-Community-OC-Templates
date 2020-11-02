@@ -104,7 +104,7 @@
 					{{#if Context.IsEditable}} <a href="{{Context.EditUrl}}"><img src="/icons/sigma/Edit_16x16_Gray.png" alt="edit" /></a>{{/if}}
 				</h3>
 				
-				{{#if Dates.StartDate}}<h4 class="dates">{{#if Dates.Text}}{{Dates.Text}} {{/if}}{{formatDateTime Dates.StartDate "yyyy-MM-dd"}}{{#if Dates.EndDate}} to {{formatDateTime Dates.EndDate "yyyy-MM-dd"}}{{/if}}</h4>{{/if}}
+				{{#if Dates.StartDate}}<h4 class="dates">{{#if Dates.Text}}<span>{{Dates.Text}}</span> {{/if}}<span>{{formatDateTime Dates.StartDate "yyyy-MM-dd"}}{{#if Dates.EndDate}} to {{formatDateTime Dates.EndDate "yyyy-MM-dd"}}{{/if}}</span></h4>{{/if}}
 				<h4 class="type {{Type.Title}}"><a class="type-link" data-id="{{Type.Title}}" href="#">{{Type.Title}}</a></h4>
 				
 				<h4 class="type {{Type.Title}}"><a class="type-link" data-id="{{Type.Title}}" href="#">{{Type.Title}}</a></h4>

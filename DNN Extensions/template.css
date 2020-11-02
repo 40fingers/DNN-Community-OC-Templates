@@ -18,7 +18,13 @@
 .oc-dnn-extensions .dates{
 	
 font-size:1.1em;
-color: #00aeef;
+color: #3b8ead;
+
+
+}
+.oc-dnn-extensions .dates span:last-child{
+	
+	color: #00aeef;
 }
 .oc-dnn-extensions .jplist-panel {
   padding: 1em 0;
@@ -85,7 +91,7 @@ color: #00aeef;
   margin-top: 0;
 }
 .oc-dnn-extensions .items .item {
-  padding: 1em 0;
+  padding: 1.5em 0;
   border-bottom: solid 1px #00aeef;
 }
 .oc-dnn-extensions .items .links a {
