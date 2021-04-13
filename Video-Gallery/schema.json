@@ -1,0 +1,63 @@
+{
+  "type": "object",
+  "properties": {
+    "Videos": {
+      "type": "array",
+      "title": "Video(s)",
+      "items": {
+        "type": "object",
+        "properties": {
+         
+          "Title": {
+            "type": "string",
+            "title": "Video Title"
+          },
+          "Description": {
+            "type": "string",
+            "title": "Video Description"
+          },
+          "Icon": {
+            "type": "string",
+            "title": "Icon",
+            "default": "If empty, we will get the Icon from YouTube"
+          },
+		   "YouTubeId": {
+            "type": "string",
+            "title": "Youtube Id"
+          }
+        }
+      }
+    },
+    "Series": {
+      "type": "object",
+      "title": "Series",
+      "properties": {
+        "Title": {
+          "type": "string",
+          "title": "Series Title"
+        },
+        "Text": {
+          "type": "string",
+          "title": "Series Text"
+        },
+        "Icon": {
+          "type": "string",
+          "title": "Preview Image"
+        }
+      }
+    },
+	"SortIndex": {
+      "type": "number",
+      "title": "Sorting Order",
+      "default": 0
+    },
+    "Tags": {
+      "type": "string",
+      "title": "Tags"
+    },
+    "Categories": {
+      "type": "array",
+      "title": "Categories"
+    }
+  }
+}
