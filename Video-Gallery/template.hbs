@@ -131,9 +131,9 @@
 							<a href="{{Context.DetailUrl}}">
 								<div class="oc-Video video video-16-9">
 									{{#if Series.Icon.cropUrl}}
-									<img src="{{Series.Icon.cropUrl}}" alt="{{Series.Title}}" loading="lazy" class="img-fluid" />
+									<img src="{{Series.Icon.cropUrl}}" alt="{{Series.Title}}" loading="lazy" />
 									{{else}}
-									<img src="https://img.youtube.com/vi/{{Videos.1.YouTubeId}}/maxresdefault.jpg" alt="{{Series.Title}}" loading="lazy" class="img-fluid" />
+									<img src="https://img.youtube.com/vi/{{Videos.[0].YouTubeId}}/maxresdefault.jpg" alt="{{Series.Title}}" loading="lazy" />
 									{{/if}}
 								</div>
 							</a>
