@@ -5,10 +5,10 @@
       "helper": "If you add a series of Videos, also enter \"Series\" below",
       "items": {
         "fields": {
-          "YouTubeId": {
+          "Title": {
             "type": "text"
           },
-          "Title": {
+          "YouTubeId": {
             "type": "text"
           },
           "Description": {
@@ -58,9 +58,6 @@
         }
       }
     },
-    "Tags": {
-      "type": "text"
-    },
     "Categories": {
       "type": "select2",
       "dataService": {
@@ -71,9 +68,6 @@
           "textField": "Title"
         }
       }
-    },
-	"SortIndex": {
-      "hidden": true
     }
   }
 }

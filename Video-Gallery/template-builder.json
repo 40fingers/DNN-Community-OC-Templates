@@ -36,8 +36,14 @@
           "dependencies": []
         },
         {
+          "fieldname": "External",
+          "title": "External Link Term",
+          "fieldtype": "text",
+          "advanced": false
+        },
+        {
           "fieldname": "BackToList",
-          "title": "Back to List",
+          "title": "Back to List Button",
           "fieldtype": "text",
           "advanced": true,
           "required": true,
