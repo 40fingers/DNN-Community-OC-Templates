@@ -56,6 +56,12 @@
       "dependencies": []
     },
     {
+      "fieldname": "Link",
+      "title": "Link to Video(s)",
+      "fieldtype": "url",
+      "advanced": false
+    },
+    {
       "fieldname": "Series",
       "title": "Series",
       "fieldtype": "object",

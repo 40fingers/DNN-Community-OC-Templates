@@ -98,6 +98,17 @@
               "default": "6"
             }
           }
+        },
+        "SeriesEffect": {
+          "type": "string",
+          "title": "Series Image Effect",
+          "enum": [
+            "darker",
+            "lighter",
+            "stripes",
+            "zigzag",
+            "arrow"
+          ]
         }
       }
     },

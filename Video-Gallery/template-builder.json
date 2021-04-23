@@ -216,6 +216,34 @@
             }
           ],
           "advanced": false
+        },
+        {
+          "fieldname": "SeriesEffect",
+          "title": "Series Image Effect",
+          "fieldtype": "select",
+          "fieldoptions": [
+            {
+              "value": "darker",
+              "text": "Darker"
+            },
+            {
+              "value": "lighter",
+              "text": "Lighter"
+            },
+            {
+              "value": "stripes",
+              "text": "Stripes"
+            },
+            {
+              "value": "zigzag",
+              "text": "Zig Zag Stripes"
+            },
+            {
+              "value": "arrow",
+              "text": "Arrow"
+            }
+          ],
+          "advanced": false
         }
       ],
       "advanced": false

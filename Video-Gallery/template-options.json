@@ -77,6 +77,17 @@
               ]
             }
           }
+        },
+        "SeriesEffect": {
+          "type": "select",
+          "sort": false,
+          "optionLabels": [
+            "Darker",
+            "Lighter",
+            "Stripes",
+            "Zig Zag Stripes",
+            "Arrow"
+          ]
         }
       }
     },

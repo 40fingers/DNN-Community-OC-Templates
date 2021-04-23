@@ -7,7 +7,10 @@
       "items": {
         "type": "object",
         "properties": {
-         
+          "YouTubeId": {
+            "type": "string",
+            "title": "Youtube Id"
+          },
           "Title": {
             "type": "string",
             "title": "Video Title"
@@ -20,13 +23,13 @@
             "type": "string",
             "title": "Icon",
             "default": "If empty, we will get the Icon from YouTube"
-          },
-		   "YouTubeId": {
-            "type": "string",
-            "title": "Youtube Id"
           }
         }
       }
+    },
+    "Link": {
+      "type": "string",
+      "title": "Link to Video(s)"
     },
     "Series": {
       "type": "object",
@@ -45,11 +48,6 @@
           "title": "Preview Image"
         }
       }
-    },
-	"SortIndex": {
-      "type": "number",
-      "title": "Sorting Order",
-      "default": 0
     },
     "Tags": {
       "type": "string",
