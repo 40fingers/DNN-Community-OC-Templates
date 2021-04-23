@@ -2,7 +2,7 @@
   "fields": {
     "Videos": {
       "type": "accordion",
-      "helper": "When you add a Multiple of Videos, also enter \"Series\" below",
+      "helper": "If you add a series of Videos, also enter \"Series\" below",
       "items": {
         "fields": {
           "YouTubeId": {
@@ -23,15 +23,17 @@
             "fileMaxSize": 2000000,
             "showOverwrite": true,
             "overwrite": false,
-            "showCropper": false,
-			"helper": "Only needed if YouTube Icon is not loaded",
+            "showCropper": false
           }
         }
       }
     },
+    "Link": {
+      "type": "url"
+    },
     "Series": {
       "type": "object",
-      "helper": "If this is a series that consists of multiple Videos",
+      "helper": "For External Link / Multiple Videos Only",
       "fields": {
         "Title": {
           "type": "text"
