@@ -33,7 +33,7 @@
     },
     "Series": {
       "type": "object",
-      "helper": "For External Link / Multiple Videos Only",
+      "helper": "If this is a series that consists of multiple Videos",
       "fields": {
         "Title": {
           "type": "text"
@@ -71,6 +71,9 @@
           "textField": "Title"
         }
       }
+    },
+	"SortIndex": {
+      "hidden": true
     }
   }
 }

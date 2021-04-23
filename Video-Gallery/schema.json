@@ -56,6 +56,11 @@
     "Categories": {
       "type": "array",
       "title": "Categories"
+    },
+	"SortIndex": {
+      "type": "number",
+      "title": "Sorting Order",
+      "default": 0
     }
   }
 }
