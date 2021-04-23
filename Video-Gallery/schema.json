@@ -7,13 +7,13 @@
       "items": {
         "type": "object",
         "properties": {
-          "YouTubeId": {
-            "type": "string",
-            "title": "Youtube Id"
-          },
           "Title": {
             "type": "string",
             "title": "Video Title"
+          },
+          "YouTubeId": {
+            "type": "string",
+            "title": "Youtube Id"
           },
           "Description": {
             "type": "string",
@@ -21,7 +21,7 @@
           },
           "Icon": {
             "type": "string",
-            "title": "Icon",
+            "title": "Overrule YouTube Image",
             "default": "If empty, we will get the Icon from YouTube"
           }
         }
@@ -48,10 +48,6 @@
           "title": "Preview Image"
         }
       }
-    },
-    "Tags": {
-      "type": "string",
-      "title": "Tags"
     },
     "Categories": {
       "type": "array",

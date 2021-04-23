@@ -12,6 +12,9 @@
         "Series": {
           "type": "mltext"
         },
+        "External": {
+          "type": "text"
+        },
         "BackToList": {
           "type": "mltext"
         },

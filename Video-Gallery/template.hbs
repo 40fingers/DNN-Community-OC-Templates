@@ -83,8 +83,7 @@
 
 	<div class="items row sortableList" data-moduleid="{{Context.ModuleId}}">
 		{{#each Items}}
-							<div class="item col col-12 
-					
+				<div class="item col col-12 
 					{{#if @root.Settings.Style.Item.sm}}
 						col-sm-{{@root.Settings.Style.Item.sm}}
 					{{/if}}
@@ -100,7 +99,7 @@
 					{{#if @root.Settings.Style.Item.xxl}}
 						col-xxl-{{@root.Settings.Style.Item.xxl}}
 					{{/if}}"
-					data-id="{{../Context.Id}}"
+					data-id="{{Context.Id}}"
 					>
 					
 
@@ -115,7 +114,7 @@
 					
 				{{#unless Videos}}
 						<header>
-						<h2 class="title"><a href="{{Link}}">{{Series.Title}}&nbsp;&raquo;</a></h2>
+						<h2 class="title"><a href="{{Link}}" target="_blank">{{Series.Title}}&nbsp;&raquo;</a></h2>
 						<div class="text">
 						{{Series.Text}}
 						</div>
@@ -126,7 +125,7 @@
 						</div>
 						</header>
 						<section>
-							<a href="{{Link}}">
+							<a href="{{Link}}" target="_blank">
 								<div class="oc-Video video video-16-9 effect-{{@root.Settings.Style.SeriesEffect}}">
 									{{#if Series.Icon.cropUrl}}
 									<img class="img-fluid" src="{{Series.Icon.cropUrl}}" alt="{{Series.Title}}" loading="lazy" />
