@@ -1,2 +1,2 @@
 # DNN Community Open Content Templates
-DNN Open Content templates for https://dnncommunity.org
+DNN [Open Content](https://opencontent.readme.io/) templates for https://dnncommunity.org
